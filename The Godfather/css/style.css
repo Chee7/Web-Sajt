@@ -1,0 +1,169 @@
+ 
+
+.header {
+  min-height: 100vh;
+  width: 100%;
+  background-image: url("kum.jpg");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+nav {
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links{
+    flex: 1;
+    text-align: center;
+}
+
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 25px;
+    position: relative;
+}
+
+.nav-links ul li a{
+    color:dimgray;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: goldenrod;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    font-size: 25px;
+    padding: 4% 4%;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 50%;
+    text-align: center;
+  }
+
+  .naslov-pocetna{
+    text-align: center;
+    color: darkgoldenrod;
+    font-size: 45px;
+    text-shadow: 0 0 40px #000;
+  }
+ 
+ .column3i1{    /* tekst u sekciji o delovima filma 1 i 3 sekcija (tekst sa desne strane) */
+  font-size: 27px;
+  justify-content: center;
+  text-align: center;
+  margin-top: 25px;
+  padding-left: 3%;
+ }
+  
+
+ .column2s{  /* tekst u sekciji o delovima filma 2 sekcija (tekst sa leve strane) */
+  font-size: 27px;
+  justify-content: center;
+  text-align: center;
+  margin-top: 45px;
+  padding-right: 3%;
+ }
+
+.container{
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 70px;
+}
+
+.naslovi-part{
+  text-align: center;
+    color: darkgoldenrod;
+    font-size: 35px;
+    
+}
+
+.slika{
+margin-left: 10px;
+margin-bottom: 100px;
+}
+
+
+.naslov-GALLERY{
+  margin-top: 70px;
+  margin-bottom: 70px;
+  text-align: center;
+  color: darkgoldenrod;
+  font-size: 47px;
+  text-shadow: 0 0 40px #000;
+}
+
+.container1{
+  padding-top: 70px;
+}
+
+.futer-kraj{
+  width: 100%;
+  background-color: goldenrod;
+  display: block;
+  text-align: center;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  
+}
+
+
+.author{
+  font-size: 20px;
+}
+
+.button {
+  border: none;
+  color: goldenrod;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.button {
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color: black; 
+  color: darkgoldenrod;
+}
+
+.naslovi-part1{
+  margin-bottom: 1px;
+  color: darkgoldenrod;
+}
